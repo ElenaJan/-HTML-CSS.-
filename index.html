@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fly</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9c3d41fdad.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/favicon.svg">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__body">
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="логотип компании Fly">
+                </a>
+                <div class="search">
+                    <form action="#" class="search-form">
+                        <div class="search__input">
+                        <input type="search" placeholder="Искать">
+                        </div>
+                        <div class="search__button">
+                            <button>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                 <nav class="header__menu">
+                     <ul class="header__list">
+                         <li>
+                             <a href="#main-banner" class="header__link">Главная</a>
+                         </li>
+                         <li>
+                            <a href="#popular" class="header__link">Популярное</a>
+                         </li>
+                        <li>
+                             <a href="#rent" class="header__link">Сдать в аренду</a>
+                        </li>
+                     </ul>
+                     <div class="burger">
+                     <i class="fa-solid fa-bars"></i>
+                     </div>
+                 </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-banner" id="main-banner">
+            <div>
+            <h1 class="h1">Fly — удобный сервис аренды жилья</h1> 
+            <p>Путешествуйте по миру, узнавайте новое, <br> а мы поможем подобрать для вас идеальный дом</p>
+            <a href="#choose-house" class="main-banner__button">Подобрать</a>
+            </div>
+            <img class="main-banner__img" src="https://images.unsplash.com/photo-1597434430513-537624aa33c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=469&q=80" alt="фото с картой, ноутбуком, блокнотом">
+            
+         </div>
+        <hr>
+        <div class="choose-house" id="choose-house">
+            <h2 class="h2">Подобрать дом</h2>
+            <div class="choose-house__type">
+            <div class="house choose-house__item">
+                <i class="fa-solid fa-house-chimney choose-house__icon"></i>
+                <p>Частный дом</p>
+            </div>
+            <div class="apartment choose-house__item">
+                <i class="fa-solid fa-building choose-house__icon"></i>
+                <p>Квартира</p>
+            </div>
+            <div class="room choose-house__item">
+                <i class="fa-solid fa-door-open choose-house__icon"></i>
+                <p>Комната</p>
+            </div>
+            <div class="hotel choose-house__item">
+                <i class="fa-solid fa-hotel choose-house__icon"></i>
+                <p>Номер в отеле</p>
+            </div>
+            <div class="tent choose-house__item">
+                <i class="fa-solid fa-campground choose-house__icon"></i>
+                <p>Палатка в кемпинге</p>
+            </div>
+            <div class="villa choose-house__item">
+                <i class="fa-solid fa-landmark choose-house__icon"></i>
+                <p>Вилла</p>
+            </div>
+            <div class="trailer choose-house__item">
+                <i class="fa-solid fa-bus-simple choose-house__icon"></i>
+                <p>Дом на колёсах</p>
+            </div>
+            <div class="igloo choose-house__item">
+                <i class="fa-solid fa-igloo choose-house__icon"></i>
+                <p>Иглу</p>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="popular" id="popular">
+            <h2 class="h2">Популярное</h2>
+            <div class="popular__cards">
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Тулум, Мексика</h3>
+                    <p>4.9<i class="fa-solid fa-star"></i></p>
+                  </div>
+                  <p>1-14 сентября</p>
+                  <p>$1000 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1581974206967-93856b25aa13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1154&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Бали, Индонезия</h3>
+                    <p>5.0<i class="fa-solid fa-star"></i></p>
+                  </div>
+                  <p>1-14 сентября</p>
+                  <p>$900 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Пунта Кана, Домениканская Республика</h3>
+                    <p>4.9<i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>1-14 сентября</p>
+                <p>$1100 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Новалья, Хорватия</h3>
+                    <p>4.8<i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>1-14 сентября</p>
+                <p>$500 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Калифорния, США</h3>
+                    <p>5.0<i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>1-14 сентября</p>
+                <p>$1200 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1565731761817-6bdc8e7d9f34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Майорка, Испания</h3>
+                    <p>4.9<i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>1-14 сентября</p>
+                <p>$1000 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1582610116397-edb318620f90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Ахангама, Шри Ланка</h3>
+                    <p>5.0<i class="fa-solid fa-star"></i></p>
+                </div>
+                <p>1-14 сентября</p>
+                <p>$800 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1605352081508-2e09927ecfe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Велддриф, Южная Африка</h3>
+                    <p>4.8<i class="fa-solid fa-star"></i></p>
+                  </div>
+                <p>1-14 сентября</p>
+                <p>$400 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Ахангама, Шри Ланка</h3>
+                    <p>4.8<i class="fa-solid fa-star"></i></p>
+                  </div>
+                <p>1-14 сентября</p>
+                <p>$400 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Вилла с бассейном">
+                <div class="popular__card-title">
+                    <h3 class="h3">Бали, Индонезия</h3>
+                    <p>4.8<i class="fa-solid fa-star"></i></p>
+                  </div>
+                <p>1-14 сентября</p>
+                <p>$1000 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1623298460174-371443cc45f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="Фото виллы">
+                <div class="popular__card-title">
+                    <h3 class="h3">Медельин, Колумбия</h3>
+                    <p>4.8<i class="fa-solid fa-star"></i></p>
+                  </div>
+                <p>1-14 сентября</p>
+                <p>$1400 зa ночь</p>
+            </div>
+            <div class="popular__card">
+                <img src="https://images.unsplash.com/photo-1582610116397-edb318620f90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Фото виллы">
+                <div class="popular__card-title">
+                    <h3 class="h3">Ахангама, Шри Ланка</h3>
+                    <p>4.8<i class="fa-solid fa-star"></i></p>
+                  </div>
+                <p>1-14 сентября</p>
+                <p>$1100 зa ночь</p>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="rent-container" id="rent">
+            <h2 class="h2">Сдать жилье в аренду</h2>
+            <div>
+                <p  class="rent-container_text">Если хотите сдать в аренду свое жилье, заполните форму ниже. <br> После проверки информации, ваше объявление появится на сайте.</p>
+                <form action="#" class="form-rent">
+                    <div class="form-rent__item"><label>Имя
+                        <input class="form-rent__input" type="text" name="firstname">
+                    </label></div>
+                    <div class="form-rent__item"><label>Фамилия
+                        <input class="form-rent__input" type="text" name="lastname">
+                    </label></div>
+                    <div class="form-rent__item"><label>Номер телефона
+                        <input class="form-rent__input" type="tel" name="phone">
+                    </label></div>
+                    <div class="form-rent__item"><label>E-mail
+                        <input class="form-rent__input" type="email" name="email">
+                    </label></div>
+                    <div class="form-rent__item"><label>Тип жилья
+                        <select name="house-type" id="house-type">
+                            <option value="detached-house">Частный дом</option>
+                            <option value="apartment">Квартира</option>
+                            <option value="room">Команата</option>
+                            <option value="hotel-room">Номер в отеле</option>
+                            <option value="tent">Палатка в кемпинге</option>
+                            <option value="villa">Вилла</option>
+                            <option value="trailer">Трейлер</option>
+                            <option value="igloo">Иглу</option>
+                        </select>
+                    </label></div>
+                    <div class="form-rent__item"><label>Адрес
+                        <input class="form-rent__input" type="text" name="adress">
+                    </label></div>
+                    <div class="form-rent__item"><label> Площадь жилья (в кв. метрах)
+                        <input class="form-rent__input" type="text" name="area">
+                    </label></div>
+                    <div class="form-rent__item"><label>Описание жилья
+                        <textarea name="description"></textarea>
+                    </label></div>
+                    <div class="form-rent__item"><label for="form-rent__input-file"> Прикрепите фотографии</label>
+                        <div class="input-file">
+                        <input class="form-rent__input form-rent__input-file" id = "form-rent__input-file" type="file" name="photo">
+                        <span class="input__file-icon-wrapper"><span><i class="fa-solid fa-download"></i></span>
+                        <span class="input__file-button-text">Выберите файл</span> </span>
+                        </div>
+                    </div>
+                    <div class="form-rent__item"><label> Минимальный срок аренды
+                        <select name="lease-term" id="lease-term">
+                            <option value="1-day">1 сутки</option>
+                            <option value="3-days">3 суток</option>
+                            <option value="1-week">1 неделя</option>
+                            <option value="1-month">1 месяц</option>
+                        </select>
+                    </label></div>
+                    <div class="form-rent__item"><p>Даты сдачи жилья в аренду</p>
+                    <div class="date">
+                        <label class="date-label" for="date-start">с</label>
+                        <input class= "input-date__form-rent" type="date" name="date" id="date-start">
+                    </div>
+                    <div class="date">
+                        <label class="date-label" for="date-end">по</label>
+                        <input class= "input-date__form-rent" type="date" name="date" id="date-end">
+                    </div>
+                    </div>
+                    <div class="form-rent__item"><label>Стоимость в сутки
+                        <input class="form-rent__input" type="text" name="price">
+                    </label></div>
+                    <div class="form-rent__item form-rent__button"><button type="submit">Отправить</button></div>
+                </form>
+                
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="logo">
+            <img src="img/logo_footer.svg" alt="логотип компании Fly">
+        </div>
+        <div class="footer__menu-columns">
+        <div class="footer__menu">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li>
+                        <a href="#main-banner" class="footer__link">Главная</a>
+                    </li>
+                    <li>
+                       <a href="#popular" class="footer__link">Популярное</a>
+                    </li>
+                   <li>
+                        <a href="#rent" class="footer__link">Сдать в аренду</a>
+                   </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__menu">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li>Условия</li>
+                    <li>Конфенденциальность</li>
+                    <li>Оплата</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__menu">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li>О нас</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
